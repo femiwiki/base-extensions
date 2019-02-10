@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
       php7.0-mbstring \
       # Required for prestissimo
       php7.0-curl \
+      # Required for aws-sdk-php
+      php7.0-simplexml \
       # Install other CLI utilities
       aria2 \
       sudo
