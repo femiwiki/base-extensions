@@ -10,12 +10,12 @@ FROM ruby:2.6
 
 RUN apt-get update && apt-get install -y \
       # Required for composer
-      php7.0-cli \
-      php7.0-mbstring \
+      php7.3-cli \
+      php7.3-mbstring \
       # Required for prestissimo
-      php7.0-curl \
+      php7.3-curl \
       # Required for aws-sdk-php
-      php7.0-simplexml \
+      php7.3-simplexml \
       # Install other CLI utilities
       aria2 \
       sudo
