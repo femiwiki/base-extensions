@@ -6,7 +6,7 @@
 #   https://github.com/hirak/prestissimo
 #   https://aria2.github.io/
 
-FROM ruby:2.6
+FROM ruby:2.7
 
 RUN apt-get update && apt-get install -y \
       # Required for composer
